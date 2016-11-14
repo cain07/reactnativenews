@@ -1,12 +1,6 @@
 /**
  * Created by mac on 16/10/30.
  */
-/**
- * Created by mac on 16/10/30.
- */
-/**
- * Created by mac on 16/10/30.
- */
 import React, {Component} from 'react';
 import {
     AppRegistry,
