@@ -12,7 +12,8 @@ import {
     AppRegistry,
     StyleSheet,
     Text,
-    View
+    View,
+    WebView
 } from 'react-native';
 
 
@@ -59,11 +60,8 @@ var NewDetail = React.createClass({
                 var allData = responseData["body"];
 
                 console.log(allData);
-
                 // 拿到body
                 var bodyHtml = allData['text'];
-
-
                 // 更新状态机
                 this.setState({
                     detailData:bodyHtml
